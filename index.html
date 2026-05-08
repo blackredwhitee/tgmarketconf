@@ -23,12 +23,6 @@ body{font-family:var(--fb);background:var(--white);color:var(--ink);line-height:
 
 /* CONTAINER */
 .wrap{width:100%;padding-left:var(--pad);padding-right:var(--pad)}
-.ment-photo-img img{
-  width:100%;
-  height:100%;
-  object-fit:cover;
-  display:block;
-}
 
 /* NAV */
 nav{
@@ -502,9 +496,7 @@ footer{background:var(--ink);padding:60px 0 36px}
   <div class="ment-grid">
     <div class="ment-photo r">
       <!-- ФОТО МИХАИЛА: замените src="" на путь к портрету -->
-      <div class="ment-photo-img">
-        <img src="images/mikhail.jpg" alt="Михаил Попов">
-      </div>
+      <div class="ment-photo-img"><img src="" alt="Михаил Попов"><div class="ment-photo-mono">МП</div></div>
       <div class="ment-caption"><div class="ment-caption-name">Михаил Попов</div><div class="ment-caption-role">Предприниматель · Ментор · Инвестор</div></div>
     </div>
     <div class="r">
@@ -737,7 +729,7 @@ function submitForm(type) {
     return;
   }
 
-  if (SCRIPT_URL === 'https://script.google.com/macros/s/AKfycbzD6Z4Bf4wHgE85GZhi7_EHC9ieILxWFRnXB-4dZBm62p1zgtaWM40O5u3J8K5QkPuC/exec') {
+  if (SCRIPT_URL === 'PASTE_YOUR_APPS_SCRIPT_URL_HERE') {
     okEl.style.display = 'block';
     okEl.textContent = '⚠ Вставьте URL Apps Script для реальной отправки';
     return;
