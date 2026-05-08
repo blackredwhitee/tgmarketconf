@@ -25,7 +25,7 @@
    БЫЛО:  const SCRIPT_URL = "ВСТАВЬТЕ_URL_ВАШЕГО_СКРИПТА";
    СТАЛО: const SCRIPT_URL = "https://script.google.com/macros/s/AKfycb.../exec";
 ================================================================= */
-const SCRIPT_URL = "ВСТАВЬТЕ_URL_ВАШЕГО_СКРИПТА";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzD6Z4Bf4wHgE85GZhi7_EHC9ieILxWFRnXB-4dZBm62p1zgtaWM40O5u3J8K5QkPuC/exec";
 
 
 /* ── PAGE LOADER ─────────────────────────────────────────────────── */
